@@ -156,8 +156,8 @@ grid 2.54 mm</description>
 <wire x1="-14.5" y1="-7.65" x2="-7.75" y2="-7.65" width="0.127" layer="21"/>
 <wire x1="-7.75" y1="-7.65" x2="-7.75" y2="2.5" width="0.127" layer="21"/>
 <wire x1="-7.75" y1="2.5" x2="7.75" y2="2.5" width="0.127" layer="21"/>
-<pad name="R$1" x="-12.45" y="3.35" drill="2.3" diameter="4"/>
-<pad name="R$2" x="12.55" y="3.3" drill="2.3" diameter="4" rot="R90"/>
+<pad name="R$1" x="-12.7" y="3.8" drill="2.3" diameter="4"/>
+<pad name="R$2" x="12.7" y="3.8" drill="2.3" diameter="4" rot="R90"/>
 </package>
 <package name="R0904N">
 <pad name="1" x="-2.5" y="0" drill="1" diameter="1.778"/>
