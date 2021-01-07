@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -328,6 +328,113 @@ grid 2.3 mm</description>
 <pad name="P$3" x="-3.25" y="-2.75" drill="1" diameter="2.1844"/>
 <pad name="P$4" x="3.25" y="-2.75" drill="1" diameter="2.1844"/>
 </package>
+<package name="WD-G0906WY">
+<wire x1="-18.5" y1="-18.5" x2="18.5" y2="-18.5" width="0.127" layer="21"/>
+<wire x1="18.5" y1="-18.5" x2="18.5" y2="18.5" width="0.127" layer="21"/>
+<wire x1="18.5" y1="18.5" x2="11" y2="18.5" width="0.127" layer="21"/>
+<wire x1="11" y1="18.5" x2="7.5" y2="18.5" width="0.127" layer="21"/>
+<wire x1="7.5" y1="18.5" x2="-18.5" y2="18.5" width="0.127" layer="21"/>
+<wire x1="-18.5" y1="18.5" x2="-18.5" y2="-18.5" width="0.127" layer="21"/>
+<wire x1="11" y1="21.5" x2="7.5" y2="21.5" width="0.127" layer="21"/>
+<wire x1="7.5" y1="21.5" x2="6" y2="21.5" width="0.127" layer="21"/>
+<wire x1="6" y1="21.5" x2="6" y2="26.5" width="0.127" layer="21"/>
+<wire x1="6" y1="26.5" x2="11" y2="26.5" width="0.127" layer="21"/>
+<wire x1="11" y1="26.5" x2="11" y2="21.5" width="0.127" layer="21"/>
+<smd name="G1" x="5.6" y="25" dx="2" dy="0.3048" layer="1"/>
+<smd name="G2" x="5.6" y="24.5" dx="2" dy="0.3048" layer="1"/>
+<smd name="G3" x="5.6" y="24" dx="2" dy="0.3048" layer="1"/>
+<smd name="G4" x="5.6" y="23.5" dx="2" dy="0.3048" layer="1"/>
+<smd name="G5" x="5.6" y="23" dx="2" dy="0.3048" layer="1"/>
+<smd name="G6" x="11.4" y="23" dx="2" dy="0.3048" layer="1"/>
+<smd name="G7" x="11.4" y="23.5" dx="2" dy="0.3048" layer="1"/>
+<smd name="G8" x="11.4" y="24" dx="2" dy="0.3048" layer="1"/>
+<smd name="G9" x="11.4" y="24.5" dx="2" dy="0.3048" layer="1"/>
+<smd name="G10" x="11.4" y="25" dx="2" dy="0.3048" layer="1"/>
+<text x="-16.1" y="-17.1" size="1.27" layer="25">&gt;NAME</text>
+<wire x1="-16.5" y1="16.5" x2="16.5" y2="16.5" width="0.127" layer="21"/>
+<wire x1="16.5" y1="16.5" x2="16.5" y2="-14.5" width="0.127" layer="21"/>
+<wire x1="16.5" y1="-14.5" x2="-16.5" y2="-14.5" width="0.127" layer="21"/>
+<wire x1="-16.5" y1="-14.5" x2="-16.5" y2="16.5" width="0.127" layer="21"/>
+<wire x1="11" y1="21.5" x2="11" y2="18.5" width="0.1524" layer="21"/>
+<wire x1="7.5" y1="21.5" x2="7.5" y2="18.5" width="0.1524" layer="21"/>
+</package>
+<package name="WD-G0906WY-BOARD">
+<wire x1="-18.5" y1="-18.5" x2="18.5" y2="-18.5" width="0.127" layer="21"/>
+<wire x1="18.5" y1="-18.5" x2="18.5" y2="18.5" width="0.127" layer="21"/>
+<wire x1="18.5" y1="18.5" x2="11" y2="18.5" width="0.127" layer="21"/>
+<wire x1="11" y1="18.5" x2="7.5" y2="18.5" width="0.127" layer="21"/>
+<wire x1="7.5" y1="18.5" x2="-18.5" y2="18.5" width="0.127" layer="21"/>
+<wire x1="-18.5" y1="18.5" x2="-18.5" y2="-18.5" width="0.127" layer="21"/>
+<wire x1="11" y1="21.5" x2="7.5" y2="21.5" width="0.127" layer="21"/>
+<wire x1="7.5" y1="21.5" x2="6" y2="21.5" width="0.127" layer="21"/>
+<wire x1="6" y1="21.5" x2="6" y2="26.5" width="0.127" layer="21"/>
+<wire x1="6" y1="26.5" x2="11" y2="26.5" width="0.127" layer="21"/>
+<wire x1="11" y1="26.5" x2="11" y2="21.5" width="0.127" layer="21"/>
+<text x="-16.1" y="-17.1" size="1.27" layer="25">&gt;NAME</text>
+<wire x1="-16.5" y1="16.5" x2="16.5" y2="16.5" width="0.127" layer="21"/>
+<wire x1="16.5" y1="16.5" x2="16.5" y2="-14.5" width="0.127" layer="21"/>
+<wire x1="16.5" y1="-14.5" x2="-16.5" y2="-14.5" width="0.127" layer="21"/>
+<wire x1="-16.5" y1="-14.5" x2="-16.5" y2="16.5" width="0.127" layer="21"/>
+<wire x1="11" y1="21.5" x2="11" y2="18.5" width="0.1524" layer="21"/>
+<wire x1="7.5" y1="21.5" x2="7.5" y2="18.5" width="0.1524" layer="21"/>
+<wire x1="-25" y1="30" x2="25" y2="30" width="0.1524" layer="21"/>
+<wire x1="25" y1="30" x2="25" y2="-30" width="0.1524" layer="21"/>
+<wire x1="25" y1="-30" x2="-25" y2="-30" width="0.1524" layer="21"/>
+<wire x1="-25" y1="-30" x2="-25" y2="30" width="0.1524" layer="21"/>
+<pad name="P$3" x="-22" y="0" drill="1.016" diameter="1.9304" shape="long"/>
+<pad name="P$8" x="22" y="0" drill="1.016" diameter="1.9304" shape="long"/>
+<pad name="P$2" x="-22" y="2.54" drill="1.016" diameter="1.9304" shape="long"/>
+<pad name="P$1" x="-22" y="5.08" drill="1.016" diameter="1.9304" shape="long"/>
+<pad name="P$4" x="-22" y="-2.54" drill="1.016" diameter="1.9304" shape="long"/>
+<pad name="P$5" x="-22" y="-5.08" drill="1.016" diameter="1.9304" shape="long"/>
+<pad name="P$9" x="22" y="2.54" drill="1.016" diameter="1.9304" shape="long"/>
+<pad name="P$10" x="22" y="5.08" drill="1.016" diameter="1.9304" shape="long"/>
+<pad name="P$7" x="22" y="-2.54" drill="1.016" diameter="1.9304" shape="long"/>
+<pad name="P$6" x="22" y="-5.08" drill="1.016" diameter="1.9304" shape="long"/>
+</package>
+<package name="TO252" urn="urn:adsk.eagle:footprint:16153/1">
+<description>&lt;b&gt;SMALL OUTLINE TRANSISTOR&lt;/b&gt;&lt;p&gt;
+TS-003</description>
+<wire x1="3.2766" y1="3.8354" x2="3.277" y2="-2.159" width="0.2032" layer="21"/>
+<wire x1="3.277" y1="-2.159" x2="-3.277" y2="-2.159" width="0.2032" layer="21"/>
+<wire x1="-3.277" y1="-2.159" x2="-3.2766" y2="3.8354" width="0.2032" layer="21"/>
+<wire x1="-3.277" y1="3.835" x2="3.2774" y2="3.8346" width="0.2032" layer="51"/>
+<wire x1="-2.5654" y1="3.937" x2="-2.5654" y2="4.6482" width="0.2032" layer="51"/>
+<wire x1="-2.5654" y1="4.6482" x2="-2.1082" y2="5.1054" width="0.2032" layer="51"/>
+<wire x1="-2.1082" y1="5.1054" x2="2.1082" y2="5.1054" width="0.2032" layer="51"/>
+<wire x1="2.1082" y1="5.1054" x2="2.5654" y2="4.6482" width="0.2032" layer="51"/>
+<wire x1="2.5654" y1="4.6482" x2="2.5654" y2="3.937" width="0.2032" layer="51"/>
+<wire x1="2.5654" y1="3.937" x2="-2.5654" y2="3.937" width="0.2032" layer="51"/>
+<smd name="3" x="0" y="2.5" dx="5.4" dy="6.2" layer="1"/>
+<smd name="1" x="-2.28" y="-4.8" dx="1" dy="1.6" layer="1"/>
+<smd name="2" x="2.28" y="-4.8" dx="1" dy="1.6" layer="1"/>
+<text x="-3.81" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="5.08" y="-2.54" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-2.7178" y1="-5.1562" x2="-1.8542" y2="-2.2606" layer="51"/>
+<rectangle x1="1.8542" y1="-5.1562" x2="2.7178" y2="-2.2606" layer="51"/>
+<rectangle x1="-0.4318" y1="-3.0226" x2="0.4318" y2="-2.2606" layer="21"/>
+<polygon width="0.1998" layer="51">
+<vertex x="-2.5654" y="3.937"/>
+<vertex x="-2.5654" y="4.6482"/>
+<vertex x="-2.1082" y="5.1054"/>
+<vertex x="2.1082" y="5.1054"/>
+<vertex x="2.5654" y="4.6482"/>
+<vertex x="2.5654" y="3.937"/>
+</polygon>
+</package>
+<package name="CWF-2">
+<pad name="P$1" x="-1.25" y="0" drill="1" diameter="1.9304"/>
+<pad name="P$2" x="1.25" y="0" drill="1" diameter="1.9304"/>
+<wire x1="3.7" y1="-2.35" x2="1" y2="-2.35" width="0.127" layer="21"/>
+<wire x1="1" y1="-2.35" x2="-1" y2="-2.35" width="0.127" layer="21"/>
+<wire x1="-1" y1="-2.35" x2="-3.7" y2="-2.35" width="0.127" layer="21"/>
+<wire x1="-3.7" y1="-2.35" x2="-3.7" y2="3.4" width="0.127" layer="21"/>
+<wire x1="-3.7" y1="3.4" x2="3.7" y2="3.4" width="0.127" layer="21"/>
+<wire x1="3.7" y1="3.4" x2="3.7" y2="-2.35" width="0.127" layer="21"/>
+<wire x1="-1" y1="-2.35" x2="-1" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-1" y1="-1.5" x2="1" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="1" y1="-1.5" x2="1" y2="-2.35" width="0.127" layer="21"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="TO92" urn="urn:adsk.eagle:package:28523/2" type="model">
@@ -612,6 +719,27 @@ grid 2.3 mm</description>
 <pin name="1" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
 <pin name="2" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
 </symbol>
+<symbol name="WD-G0906WY">
+<wire x1="-12.7" y1="7.62" x2="12.7" y2="7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="7.62" x2="12.7" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-7.62" x2="-12.7" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-7.62" x2="-12.7" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="10.16" x2="15.24" y2="10.16" width="0.254" layer="94"/>
+<wire x1="15.24" y1="10.16" x2="15.24" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-12.7" x2="-15.24" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-12.7" x2="-15.24" y2="10.16" width="0.254" layer="94"/>
+<pin name="CLK" x="-20.32" y="5.08" length="middle"/>
+<pin name="DATA" x="-20.32" y="2.54" length="middle"/>
+<pin name="GND" x="-20.32" y="0" length="middle"/>
+<pin name="CS" x="-20.32" y="-2.54" length="middle"/>
+<pin name="RESET" x="-20.32" y="-5.08" length="middle"/>
+<pin name="LED+" x="20.32" y="-5.08" length="middle" rot="R180"/>
+<pin name="LED-" x="20.32" y="-2.54" length="middle" rot="R180"/>
+<pin name="N/A" x="20.32" y="0" length="middle" rot="R180"/>
+<pin name="VCC@2" x="20.32" y="2.54" length="middle" swaplevel="1" rot="R180"/>
+<pin name="VCC@1" x="20.32" y="5.08" length="middle" swaplevel="1" rot="R180"/>
+<text x="-10.16" y="-10.16" size="1.778" layer="94">LCD NOKIA 1112</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="SS12D00" prefix="SA" uservalue="yes">
@@ -879,7 +1007,7 @@ Source: http://www.irf.com/product-info/datasheets/data/irf4905pbf.pdf</descript
 </device>
 </devices>
 </deviceset>
-<deviceset name="L7805">
+<deviceset name="L7805" prefix="DA">
 <gates>
 <gate name="G$1" symbol="78XX" x="0" y="-2.54"/>
 </gates>
@@ -922,6 +1050,104 @@ Source: http://www.irf.com/product-info/datasheets/data/irf4905pbf.pdf</descript
 <connects>
 <connect gate="G$1" pin="1" pad="P$1 P$2"/>
 <connect gate="G$1" pin="2" pad="P$3 P$4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WD-G0906WY" prefix="HG">
+<gates>
+<gate name="G$1" symbol="WD-G0906WY" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WD-G0906WY">
+<connects>
+<connect gate="G$1" pin="CLK" pad="G1"/>
+<connect gate="G$1" pin="CS" pad="G4"/>
+<connect gate="G$1" pin="DATA" pad="G2"/>
+<connect gate="G$1" pin="GND" pad="G3"/>
+<connect gate="G$1" pin="LED+" pad="G6"/>
+<connect gate="G$1" pin="LED-" pad="G7"/>
+<connect gate="G$1" pin="N/A" pad="G8"/>
+<connect gate="G$1" pin="RESET" pad="G5"/>
+<connect gate="G$1" pin="VCC@1" pad="G10"/>
+<connect gate="G$1" pin="VCC@2" pad="G9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WD-G0906WY-BOARD" prefix="HG">
+<gates>
+<gate name="G$1" symbol="WD-G0906WY" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WD-G0906WY-BOARD">
+<connects>
+<connect gate="G$1" pin="CLK" pad="P$1"/>
+<connect gate="G$1" pin="CS" pad="P$4"/>
+<connect gate="G$1" pin="DATA" pad="P$2"/>
+<connect gate="G$1" pin="GND" pad="P$3"/>
+<connect gate="G$1" pin="LED+" pad="P$6"/>
+<connect gate="G$1" pin="LED-" pad="P$7"/>
+<connect gate="G$1" pin="N/A" pad="P$8"/>
+<connect gate="G$1" pin="RESET" pad="P$5"/>
+<connect gate="G$1" pin="VCC@1" pad="P$10"/>
+<connect gate="G$1" pin="VCC@2" pad="P$9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AOD403" prefix="VT">
+<gates>
+<gate name="G$1" symbol="MFPD" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO252">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LR2905" prefix="VT">
+<gates>
+<gate name="G$1" symbol="NFPD" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO252">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CWF-2" prefix="XS">
+<gates>
+<gate name="G$1" symbol="PINHD2" x="2.54" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="CWF-2">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
